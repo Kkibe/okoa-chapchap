@@ -37,7 +37,7 @@ const Options = () => {
         <div  >
             <form onSubmit={handleSubmit}>
                 <div>
-                    <h1>Example Loan Form</h1>
+                    <h1>Okoa Chapchap</h1>
                     <div className="input-group">
                         <p>Dear customer, you qualify for a loan of up to Ksh 14,500. Choose your savings plan to continue the loan application.</p>
                     </div>
