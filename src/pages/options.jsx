@@ -25,6 +25,10 @@ const Options = () => {
         limit: 12500,
         fees: 370,
         value: "4"
+    }, {
+        limit: 14500,
+        fees: 400,
+        value: "4"
     }];
 
     const handleSubmit = (e) => {
@@ -39,7 +43,10 @@ const Options = () => {
                 <div>
                     <h1>Okoa Chapchap</h1>
                     <div className="input-group">
-                        <p>Dear customer, you qualify for a loan of up to Ksh 14,500. Choose your savings plan to continue the loan application.</p>
+                        <p style={{
+                           fontSize: "17px",
+                           fontWeight: "bolder"
+                        }}>Dear customer, you qualify for a loan of up to Ksh 14,500. Choose your application plan to continue the loan application.</p>
                     </div>
                     {
                         data.map(item => {
