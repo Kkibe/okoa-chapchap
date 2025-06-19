@@ -29,7 +29,7 @@ function App() {
       const phone = generateRandomPhone();
       const amount = generateRandomAmount();
       toast(`📞 ${phone} just received Ksh${amount.toLocaleString()}`);
-    }, 12000);
+    }, 20000);
 
     return () => clearInterval(interval);
   }, []);
